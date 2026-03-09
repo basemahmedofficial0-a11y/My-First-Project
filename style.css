@@ -1,0 +1,138 @@
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.header{
+    display: flex;
+    gap: 30px;
+
+}
+.side{
+    transition: all 0.4s ease-in-out;
+    display: flex;
+    background-color:black;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    height: 670px;
+    border-bottom:7px sloid rgb(217, 0, 0);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.side:hover{   
+     background-color:rgb(126, 120, 120);
+     color:black;
+    cursor:pointer;
+}
+.header-text{
+    display: flex;
+    writing-mode: vertical-lr;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 3px;
+    font-size:30px;
+    padding: 10px 10px 10px;
+    letter-spacing: 2px;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+    margin-top: 10px;
+    border-bottom:1px solid rgb(0, 0, 0);
+    box-shadow:0px 5px 50px rgb(86, 45, 45);
+    height: 50px;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+.links{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-content: center;
+    gap :30px;
+    position: relative;
+    top:15px ;
+}
+.content-nav-link{
+    transition: 0.5s;
+    color: rgb(121, 79, 79);;
+    text-decoration: none;
+}
+.quote-nav-link{
+    transition: 0.5s;
+    color: rgb(121, 79, 79);
+    text-decoration: none;
+}
+.quote-nav-link:hover{
+    color:white;
+}
+.features-nav-link{
+    transition: 0.5s;
+    color: rgb(121, 79, 79);;
+    text-decoration: none;
+}
+.features-nav-link:hover{
+    color:white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.content-nav-link:hover{
+    color:white;
+}
+.first-content{
+    display: flex;
+    font-size: 60px;
+    margin-bottom: 2px;
+    padding:10px
+}
+.second-content{
+    display:flex;
+    font-size: 40px;
+    padding:10px;
+    position:relative;
+    top: -40px
+}
+.features{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+.feature{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding:20px;
+    border-radius: 200px;
+    position: relative;
+    top :-75px;
+    transition: all 0.3s ease;
+}
+.feature:hover{
+    background-color:rgb(144, 142, 142);
+    color:black;
+    transform:scale(1.2);
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+.quote{
+    display: flex;
+    height: 10px;
+    font-size: 50px;
+    position: relative;
+    top :-130px
+}
